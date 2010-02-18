@@ -3,7 +3,7 @@ package Task::Dancer;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
@@ -15,7 +15,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 DESCRIPTION
 
@@ -44,6 +44,8 @@ If you've written anything relating to Dancer, please let me know.
 =head2 L<Dancer::Session::Memcache>
 
 =head2 L<Dancer::Session::Cookie>
+
+=head2 L<Dancer::Session::Storable>
 
 =head1 AUTHOR
 

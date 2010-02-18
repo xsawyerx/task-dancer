@@ -1,0 +1,68 @@
+NAME
+    Task::Dancer - Dancer in a box
+
+VERSION
+    Version 0.01
+
+DESCRIPTION
+    This Task installs Dancer and optional Dancer engines and assorted
+    modules that are not included in the Dancer core distribution.
+
+    If you've written anything relating to Dancer, please let me know.
+
+Template Engines
+  Dancer::Template::Tiny
+  Dancer::Template::Tenjin
+  Dancer::Template::HAML
+  Dancer::Template::MicroTemplate
+Logging Engines
+  Dancer::Logger::Syslog
+  Dancer::Logger::LogHandler
+Session Engines
+  Dancer::Session::Memcache
+  Dancer::Session::Cookie
+AUTHOR
+    Sawyer X, "<xsawyerx at cpan.org>"
+
+BUGS
+    Please report any bugs or feature requests to "bug-task-dancer at
+    rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Dancer>. I will be
+    notified, and then you'll automatically be notified of progress on your
+    bug as I make changes.
+
+SUPPORT
+    You can find documentation for this module with the perldoc command.
+
+        perldoc Task::Dancer
+
+    You can also look for information at:
+
+    *   RT: CPAN's request tracker (report bugs here)
+
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Dancer>
+
+    *   AnnoCPAN: Annotated CPAN documentation
+
+        <http://annocpan.org/dist/Task-Dancer>
+
+    *   CPAN Ratings
+
+        <http://cpanratings.perl.org/d/Task-Dancer>
+
+    *   Search CPAN
+
+        <http://search.cpan.org/dist/Task-Dancer/>
+
+ACKNOWLEDGEMENTS
+    Dancer team.
+
+LICENSE AND COPYRIGHT
+    Copyright 2010 Sawyer X.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
+
+    See http://dev.perl.org/licenses/ for more information.
+

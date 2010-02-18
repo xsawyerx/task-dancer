@@ -1,5 +1,10 @@
 Revision history for Task-Dancer
 
+0.02    18.02.10
+        * Using "recommends" instead of "auto_features"
+        * Correcting Logger::Syslog
+        * Adding Dancer::Session::Storable
+
 0.01    18.02.10
         First version, includes quite a lot :)
 

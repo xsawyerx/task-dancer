@@ -1,8 +1,10 @@
 Revision history for Task-Dancer
 
-0.02_1  19.02.10
+0.03    19.02.10
         * Trying to use "auto_features" again
+        * Failing that (using daxim's advice) moved to Module::Install
         * Removed strict and warnings (what's the point?)
+        * Removed unnecessary tests
 
 0.02    18.02.10
         * Using "recommends" instead of "auto_features"

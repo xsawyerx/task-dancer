@@ -7,7 +7,7 @@ use inc::Module::Install;
 name     'Task-Dancer';
 all_from 'lib/Task/Dancer.pm';
 license  'perl';
-requires 'perl' => 5.006;
+include  'Module::AutoInstall';
 
 feature 'Template::Tiny templating support',
     -default                          => 0,

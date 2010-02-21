@@ -3,6 +3,7 @@ lib/Task/Dancer.pm
 MANIFEST			This list of files
 README
 t/manifest.t
+t/00-load.t
 META.yml
 Makefile.PL
 inc/Module/AutoInstall.pm

@@ -4,9 +4,7 @@ author:
   - 'Sawyer X <xsawyerx@cpan.org>'
 build_requires:
   Test::More: 0
-configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3601'
+generated_by: 'Sawyer X INC. :)'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,20 +13,9 @@ name: Task-Dancer
 provides:
   Task::Dancer:
     file: lib/Task/Dancer.pm
-    version: 0.02
-recommends:
-  Dancer::Logger::LogHandler: 0
-  Dancer::Logger::Syslog: 0
-  Dancer::Session::Cookie: 0
-  Dancer::Session::Memcache: 0
-  Dancer::Session::Storable: 0
-  Dancer::Template::HAML: 0
-  Dancer::Template::MicroTemplate: 0
-  Dancer::Template::Tenjin: 0
-  Dancer::Template::Tiny: 0
-  Tenjin: 0.5
+    version: 0.05
 requires:
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.05

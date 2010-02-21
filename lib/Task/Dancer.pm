@@ -16,7 +16,8 @@ Version 0.04
 
 =head1 DESCRIPTION
 
-This Task installs Dancer and optional Dancer engines and assorted modules that are not included in the Dancer core distribution.
+This Task installs Dancer and optional Dancer engines and assorted modules that
+are not included in the Dancer core distribution.
 
 If you've written anything relating to Dancer, please let me know.
 
@@ -50,9 +51,11 @@ Sawyer X, C<< <xsawyerx at cpan.org> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-task-dancer at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Dancer>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+Please report any bugs or feature requests to C<bug-task-dancer at rt.cpan.org>,
+or through the web interface at
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Dancer>.  I will be
+notified, and then you'll automatically be notified of progress on your bug as I
+make changes.
 
 =head1 SUPPORT
 

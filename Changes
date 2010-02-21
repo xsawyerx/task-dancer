@@ -1,5 +1,9 @@
 Revision history for Task-Dancer
 
+0.05    21.02.10
+        * Removed Tenjin in feature, since Dancer::Template::Tenjin is fixed.
+        * Adding test to allow CPAN toolchain to succeed in tests.
+
 0.04    19.02.10
         * Bumping version because of bad PAUSE upload
 

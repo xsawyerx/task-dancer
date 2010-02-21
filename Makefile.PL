@@ -16,7 +16,6 @@ feature 'Template::Tiny templating support',
 feature 'Tenjin templating support',
     -default                          => 0,
     'Dancer::Template::Tenjin'        => 0,
-    'Tenjin'                          => 0.5;
 
 feature 'Text::HAML templating support',
     -default                          => 0,

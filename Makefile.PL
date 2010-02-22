@@ -11,7 +11,7 @@ include  'Module::AutoInstall';
 
 feature 'Template::Tiny templating support',
     -default                          => 0,
-    'Dancer::Template::Tiny'          => 0;
+    'Dancer::Template::Tiny'          => 0.02;
 
 feature 'Tenjin templating support',
     -default                          => 0,

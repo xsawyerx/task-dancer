@@ -21,6 +21,10 @@ feature 'Text::HAML templating support',
     -default                          => 0,
     'Dancer::Template::HAML'          => 0;
 
+feature 'HTML::Mason templating support',
+    -default                          => 0,
+    'Dancer::Template::Mason'         => 0;
+
 feature 'Text::MicroTemplate templating support',
     -default                          => 0,
     'Dancer::Template::MicroTemplate' => 0;

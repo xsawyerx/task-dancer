@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =head1 DESCRIPTION
 
@@ -28,6 +28,8 @@ If you've written anything relating to Dancer, please let me know.
 =head2 L<Dancer::Template::Tenjin>
 
 =head2 L<Dancer::Template::HAML>
+
+=head2 L<Dancer::Template::Mason>
 
 =head2 L<Dancer::Template::MicroTemplate>
 

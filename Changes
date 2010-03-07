@@ -1,5 +1,10 @@
 Revision history for Task-Dancer
 
+0.08    07.03.10
+        * Updating META.yml manually
+        * Bad Makefile.PL, fixes #54899 and #54889, sorry!
+        (Thanks Miyagawa and Kenichi Ishigaki!)
+
 0.07    06.03.10
         * Adding Dancer::Template::Mason since it reached stable release.
 

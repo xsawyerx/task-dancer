@@ -2,7 +2,7 @@ NAME
     Task::Dancer - Dancer in a box
 
 VERSION
-    Version 0.01
+    Version 0.08
 
 DESCRIPTION
     This Task installs Dancer and optional Dancer engines and assorted
@@ -14,6 +14,7 @@ Template Engines
   Dancer::Template::Tiny
   Dancer::Template::Tenjin
   Dancer::Template::HAML
+  Dancer::Template::Mason
   Dancer::Template::MicroTemplate
 Logging Engines
   Dancer::Logger::Syslog
@@ -21,6 +22,7 @@ Logging Engines
 Session Engines
   Dancer::Session::Memcache
   Dancer::Session::Cookie
+  Dancer::Session::Storable
 AUTHOR
     Sawyer X, "<xsawyerx at cpan.org>"
 

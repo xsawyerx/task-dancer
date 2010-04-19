@@ -54,7 +54,6 @@ foreach my $type ( keys %features ) {
 
         feature "$name $type support",
             -default => $default, $full_namespace => $min;
-);
     }
 }
 

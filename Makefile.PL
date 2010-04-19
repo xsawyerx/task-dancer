@@ -4,50 +4,52 @@ use warnings;
 # Load the Module::Install bundled in ./inc/
 use inc::Module::Install;
 
+my %features = (
+    templating => {
+        namespace       => 'Template',
+        Tiny            => { name => 'Template::Tiny', min => '0.02' },
+        Tenjin          => { name => 'Tenjin'              },
+        HAML            => { name => 'Text::HAML'          },
+        Mason           => { name => 'HTML::Mason'         },
+        MicroTemplate   => { name => 'Text::MicroTemplate' },
+    },
+
+    logging => {
+        namespace  => 'Logger',
+        Syslog     => { name => 'Sys::Syslog'      },
+        LogHandler => { name => 'Log::Handler'     },
+    },
+
+    session => {
+        namespace => 'Session',
+        Memcache  => { name => 'Cache::Memcached' },
+        Cookie    => { name => 'Encrypted cookie-based' },
+        Storable  => { name => 'Storable file-based'    },
+    },
+);
+
 name     'Task-Dancer';
 all_from 'lib/Task/Dancer.pm';
 license  'perl';
 include  'Module::AutoInstall';
 
-feature 'Template::Tiny templating support',
-    -default                          => 0,
-    'Dancer::Template::Tiny'          => 0.02;
+foreach my $type ( keys %features ) {
+    my $namespace = delete $features{$type}{'namespace'};
 
-feature 'Tenjin templating support',
-    -default                          => 0,
-    'Dancer::Template::Tenjin'        => 0;
+    foreach my $semi_namespace ( keys %{ $features{$type} } ) {
+        my $full_namespace = "Dancer::${namespace}::${semi_namespace}";
+        my ( $name, $default, $min ) =
+            @{ $features{$type}{$semi_namespace} }{qw/ name default min /};
 
-feature 'Text::HAML templating support',
-    -default                          => 0,
-    'Dancer::Template::HAML'          => 0;
+        $default ||= 0;
+        $min     ||= 0;
 
-feature 'HTML::Mason templating support',
-    -default                          => 0,
-    'Dancer::Template::Mason'         => 0;
-
-feature 'Text::MicroTemplate templating support',
-    -default                          => 0,
-    'Dancer::Template::MicroTemplate' => 0;
-
-feature 'Sys::Syslog logging support',
-    -default                          => 0,
-    'Dancer::Logger::Syslog'          => 0;
-
-feature 'Log::Handler logging support',
-    -default                          => 0,
-    'Dancer::Logger::LogHandler'      => 0;
-
-feature 'Cache::Memcached session support',
-    -default                          => 0,
-    'Dancer::Session::Memcache'       => 0;
-
-feature 'Encrypted cookie-based session support',
-    -default                          => 0,
-    'Dancer::Session::Cookie'         => 0;
-
-feature 'Storable file-based session support',
-    -default                          => 0,
-    'Dancer::Session::Storable'       => 0;
+        feature "$name $type support",
+            -default => $default, $full_namespace => $min;
+);
+    }
+}
 
 auto_install;
 WriteAll;
+

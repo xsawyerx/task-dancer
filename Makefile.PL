@@ -28,6 +28,12 @@ my %features = (
         Cookie    => { name => 'Encrypted cookie-based' },
         Storable  => { name => 'Storable file-based'    },
     },
+
+    plugin => {
+        namespace => 'Plugin',
+        Database  => { name => 'Database'          },
+        SiteMap   => { name => 'Site map creation' },
+    },
 );
 
 name     'Task-Dancer';

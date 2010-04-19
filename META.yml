@@ -13,9 +13,9 @@ name: Task-Dancer
 provides:
   Task::Dancer:
     file: lib/Task/Dancer.pm
-    version: 0.08
+    version: 0.09
 requires:
-  perl: 5.006
+  perl: 5.00
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.08
+version: 0.09

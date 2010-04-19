@@ -1,5 +1,12 @@
 Revision history for Task-Dancer
 
+0.09    20.04.10
+        * Rewrote the Makefile.PL to make it programmatic, easier to add.
+        * Added Dancer::Template::TemplateSandbox
+        * Added Dancer::Template::HtmlTemplate
+        * Added Dancer::Plugin::Database
+        * Added Dancer::Plugin::SiteMap
+
 0.08    07.03.10
         * Updating META.yml manually
         * Bad Makefile.PL, fixes #54899 and #54889, sorry!

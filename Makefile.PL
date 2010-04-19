@@ -9,7 +9,7 @@ my %features = (
         namespace       => 'Template',
         Tiny            => { name => 'Template::Tiny', min => '0.02' },
         Tenjin          => { name => 'Tenjin'              },
-        HAML            => { name => 'Text::HAML'          },
+        Haml            => { name => 'Text::HAML'          },
         Mason           => { name => 'HTML::Mason'         },
         MicroTemplate   => { name => 'Text::MicroTemplate' },
         TemplateSandbox => { name => 'Template::Sandbox'   },

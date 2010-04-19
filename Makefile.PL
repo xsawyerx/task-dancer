@@ -12,6 +12,8 @@ my %features = (
         HAML            => { name => 'Text::HAML'          },
         Mason           => { name => 'HTML::Mason'         },
         MicroTemplate   => { name => 'Text::MicroTemplate' },
+        TemplateSandbox => { name => 'Template::Sandbox'   },
+        HtmlTemplate    => { name => 'HTML::Template'      },
     },
 
     logging => {

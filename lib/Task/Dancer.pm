@@ -33,6 +33,10 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Template::MicroTemplate>
 
+=head2 L<Dancer::Template::TemplateSandbox>
+
+=head2 L<Dancer::Template::HtmlTemplate>
+
 =head1 Logging Engines
 
 =head2 L<Dancer::Logger::Syslog>

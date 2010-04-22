@@ -1,11 +1,15 @@
 Revision history for Task-Dancer
 
+0.10    22.04.10
+        * Adding Dancer as required - d'oh!
+        * Miminum version of Dancer::Template::HtmlTemplate is 0.02.
+
 0.09    20.04.10
         * Rewrote the Makefile.PL to make it programmatic, easier to add.
-        * Added Dancer::Template::TemplateSandbox
-        * Added Dancer::Template::HtmlTemplate
-        * Added Dancer::Plugin::Database
-        * Added Dancer::Plugin::SiteMap
+        * Added Dancer::Template::TemplateSandbox.
+        * Added Dancer::Template::HtmlTemplate.
+        * Added Dancer::Plugin::Database.
+        * Added Dancer::Plugin::SiteMap.
 
 0.08    07.03.10
         * Updating META.yml manually
@@ -16,25 +20,25 @@ Revision history for Task-Dancer
         * Adding Dancer::Template::Mason since it reached stable release.
 
 0.06    21.02.10
-        * Bumping version to fix PAUSE upload
+        * Bumping version to fix PAUSE upload.
 
 0.05    21.02.10
         * Removed Tenjin in feature, since Dancer::Template::Tenjin is fixed.
         * Adding test to allow CPAN toolchain to succeed in tests.
 
 0.04    19.02.10
-        * Bumping version because of bad PAUSE upload
+        * Bumping version because of bad PAUSE upload.
 
 0.03    19.02.10
-        * Trying to use "auto_features" again
-        * Failing that (using daxim's advice) moved to Module::Install
-        * Removed strict and warnings (what's the point?)
-        * Removed unnecessary tests
+        * Trying to use "auto_features" again.
+        * Failing that (using daxim's advice) moved to Module::Install.
+        * Removed strict and warnings (what's the point?).
+        * Removed unnecessary tests.
 
 0.02    18.02.10
-        * Using "recommends" instead of "auto_features"
-        * Correcting Logger::Syslog
-        * Adding Dancer::Session::Storable
+        * Using "recommends" instead of "auto_features".
+        * Correcting Logger::Syslog.
+        * Adding Dancer::Session::Storable.
 
 0.01    18.02.10
         First version, includes quite a lot :)

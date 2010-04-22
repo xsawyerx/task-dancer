@@ -8,12 +8,13 @@ my %features = (
     templating => {
         namespace       => 'Template',
         Tiny            => { name => 'Template::Tiny', min => '0.02' },
+        HtmlTemplate    => { name => 'HTML::Template', min => '0.02' },
+
         Tenjin          => { name => 'Tenjin'              },
         Haml            => { name => 'Text::HAML'          },
         Mason           => { name => 'HTML::Mason'         },
         MicroTemplate   => { name => 'Text::MicroTemplate' },
         TemplateSandbox => { name => 'Template::Sandbox'   },
-        HtmlTemplate    => { name => 'HTML::Template'      },
     },
 
     logging => {
@@ -40,6 +41,7 @@ name     'Task-Dancer';
 all_from 'lib/Task/Dancer.pm';
 license  'perl';
 include  'Module::AutoInstall';
+requires 'Dancer' => 0;
 
 foreach my $type ( keys %features ) {
     my $namespace = delete $features{$type}{'namespace'};

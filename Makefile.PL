@@ -10,6 +10,7 @@ my %features = (
         Tiny            => { name => 'Template::Tiny', min => '0.02' },
         HtmlTemplate    => { name => 'HTML::Template', min => '0.02' },
 
+        Alloy           => { name => 'Alloy'               },
         Tenjin          => { name => 'Tenjin'              },
         Haml            => { name => 'Text::HAML'          },
         Mason           => { name => 'HTML::Mason'         },

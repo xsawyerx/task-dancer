@@ -23,11 +23,11 @@ If you've written anything relating to Dancer, please let me know.
 
 =head1 Template Engines
 
-=head2 L<Dancer::Template::Tiny>
-
-=head2 L<Dancer::Template::Tenjin>
+=head2 L<Dancer::Template::Alloy>
 
 =head2 L<Dancer::Template::HAML>
+
+=head2 L<Dancer::Template::HtmlTemplate>
 
 =head2 L<Dancer::Template::Mason>
 
@@ -35,35 +35,35 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Template::TemplateSandbox>
 
-=head2 L<Dancer::Template::HtmlTemplate>
+=head2 L<Dancer::Template::Tenjin>
 
-=head2 L<Dancer::Template::Alloy>
+=head2 L<Dancer::Template::Tiny>
 
 =head1 Logging Engines
 
-=head2 L<Dancer::Logger::Syslog>
-
 =head2 L<Dancer::Logger::LogHandler>
+
+=head2 L<Dancer::Logger::Syslog>
 
 =head1 Session Engines
 
-=head2 L<Dancer::Session::Memcache>
-
 =head2 L<Dancer::Session::Cookie>
+
+=head2 L<Dancer::Session::Memcache>
 
 =head2 L<Dancer::Session::Storable>
 
 =head1 Plugins
 
-=head2 L<Dancer::Plugin::Email>
+=head2 L<Dancer::Plugin::Database>
 
-=head2 L<Dancer::Plugin::Validation>
+=head2 L<Dancer::Plugin::Email>
 
 =head2 L<Dancer::Plugin::REST>
 
-=head2 L<Dancer::Plugin::Database>
-
 =head2 L<Dancer::Plugin::SiteMap>
+
+=head2 L<Dancer::Plugin::Validation>
 
 =head1 AUTHOR
 

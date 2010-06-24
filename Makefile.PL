@@ -16,6 +16,7 @@ my %features = (
         Mason           => { name => 'HTML::Mason'         },
         MicroTemplate   => { name => 'Text::MicroTemplate' },
         TemplateSandbox => { name => 'Template::Sandbox'   },
+        Ctpp2           => { name => 'HTML::CTPP2'         },
     },
 
     logging => {

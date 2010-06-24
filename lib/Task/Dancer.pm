@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 1;
 
@@ -12,11 +12,11 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =head1 DESCRIPTION
 
-This Task installs Dancer and optional Dancer engines and assorted modules that
+This Task installs Dancer, optional engines, templates and assorted modules that
 are not included in the Dancer core distribution.
 
 If you've written anything relating to Dancer, please let me know.
@@ -24,6 +24,8 @@ If you've written anything relating to Dancer, please let me know.
 =head1 Template Engines
 
 =head2 L<Dancer::Template::Alloy>
+
+=head2 L<Dancer::Template::Ctpp2>
 
 =head2 L<Dancer::Template::HAML>
 

@@ -2,27 +2,37 @@ NAME
     Task::Dancer - Dancer in a box
 
 VERSION
-    Version 0.08
+    Version 0.12
 
 DESCRIPTION
-    This Task installs Dancer and optional Dancer engines and assorted
+    This Task installs Dancer, optional engines, templates and assorted
     modules that are not included in the Dancer core distribution.
 
     If you've written anything relating to Dancer, please let me know.
 
 Template Engines
-  Dancer::Template::Tiny
-  Dancer::Template::Tenjin
+  Dancer::Template::Alloy
+  Dancer::Template::Ctpp2
   Dancer::Template::HAML
+  Dancer::Template::HtmlTemplate
   Dancer::Template::Mason
   Dancer::Template::MicroTemplate
+  Dancer::Template::TemplateSandbox
+  Dancer::Template::Tenjin
+  Dancer::Template::Tiny
 Logging Engines
-  Dancer::Logger::Syslog
   Dancer::Logger::LogHandler
+  Dancer::Logger::Syslog
 Session Engines
-  Dancer::Session::Memcache
   Dancer::Session::Cookie
+  Dancer::Session::Memcache
   Dancer::Session::Storable
+Plugins
+  Dancer::Plugin::Database
+  Dancer::Plugin::Email
+  Dancer::Plugin::REST
+  Dancer::Plugin::SiteMap
+  Dancer::Plugin::Validation
 AUTHOR
     Sawyer X, "<xsawyerx at cpan.org>"
 

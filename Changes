@@ -1,5 +1,15 @@
 Revision history for Task-Dancer
 
+0.12    24.06.10
+        * Adding Dancer::Template::Ctpp2
+
+0.11    28.05.10
+        * Adding Dancer::Template::Alloy
+        * Adding Dancer::Plugin::REST
+        * Adding Dancer::Plugin::Email
+        * Adding Dancer::Plugin::Validation
+        * Sorting POD
+
 0.10    22.04.10
         * Adding Dancer as required - d'oh!
         * Miminum version of Dancer::Template::HtmlTemplate is 0.02.

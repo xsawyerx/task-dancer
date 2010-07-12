@@ -55,6 +55,8 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Session::Memcache>
 
+=head2 L<Dancer::Session::PSGI>
+
 =head2 L<Dancer::Session::Storable>
 
 =head1 Plugins
@@ -65,9 +67,15 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Plugin::REST>
 
+=head2 L<Dancer::Plugin::Scoped>
+
 =head2 L<Dancer::Plugin::SiteMap>
 
 =head2 L<Dancer::Plugin::Validation>
+
+=head1 More Plack middlewares
+
+=head2 L<Dancer::Debug>
 
 =head1 AUTHOR
 

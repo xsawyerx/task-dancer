@@ -45,6 +45,8 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Logger::LogHandler>
 
+=head2 L<Dancer::Logger::PSGI>
+
 =head2 L<Dancer::Logger::Syslog>
 
 =head1 Session Engines

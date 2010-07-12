@@ -21,8 +21,9 @@ my %features = (
 
     logging => {
         namespace  => 'Logger',
-        Syslog     => { name => 'Sys::Syslog'      },
         LogHandler => { name => 'Log::Handler'     },
+        PSGI       => { name => 'PSGI'             },
+        Syslog     => { name => 'Sys::Syslog'      },
     },
 
     session => {

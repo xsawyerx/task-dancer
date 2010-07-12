@@ -1,5 +1,11 @@
 Revision history for Task-Dancer
 
+0.13    12.07.10
+        * Adding Dancer::Logger::PSGI
+        * Adding Dancer::Session::PSGI
+        * Adding Dancer::Plugin::Scoped
+        * Adding Dancer::Debug
+
 0.12    24.06.10
         * Adding Dancer::Template::Ctpp2
 

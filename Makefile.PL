@@ -28,18 +28,25 @@ my %features = (
 
     session => {
         namespace => 'Session',
-        Memcache  => { name => 'Cache::Memcached' },
-        Cookie    => { name => 'Encrypted cookie-based' },
-        Storable  => { name => 'Storable file-based'    },
+        Cookie    => { name => 'Encrypted cookie-based'     },
+        Memcache  => { name => 'Cache::Memcached'           },
+        PSGI      => { name => 'Plack::Middleware::Session' },
+        Storable  => { name => 'Storable file-based'        },
     },
 
     plugin => {
         namespace  => 'Plugin',
-        Database   => { name => 'Database'                 },
-        SiteMap    => { name => 'Site map creation'        },
-        REST       => { name => 'RESTful apps'             },
-        Email      => { name => 'Email::Stuff integration' },
-        Validation => { name => 'Oogly Data validation'    },
+        Database   => { name => 'Database'                    },
+        SiteMap    => { name => 'Site map creation'           },
+        REST       => { name => 'RESTful apps'                },
+        Email      => { name => 'Email::Stuff integration'    },
+        Validation => { name => 'Oogly Data validation'       },
+        Scope      => { name => 'parameter variables scoping' },
+    },
+
+    # for now it's middlewares
+    middleware => {
+        'Debug' => { name => 'Plack::Middleware::Debug' },
     },
 );
 
@@ -53,7 +60,10 @@ foreach my $type ( keys %features ) {
     my $namespace = delete $features{$type}{'namespace'};
 
     foreach my $semi_namespace ( keys %{ $features{$type} } ) {
-        my $full_namespace = "Dancer::${namespace}::${semi_namespace}";
+        my $full_namespace = $namespace                               ?
+                            "Dancer::${namespace}::${semi_namespace}" :
+                            "Dancer::${semi_namespace}";
+
         my ( $name, $default, $min ) =
             @{ $features{$type}{$semi_namespace} }{qw/ name default min /};
 

@@ -1,6 +1,10 @@
 Revision history for Task-Dancer
 
-0.13    11.09.10
+0.15    12.09.10
+        * Fixed POD
+        * Fixed Changes
+
+0.14    11.09.10
         * Adding Dancer::Plugin::DBIC
 
 0.13    12.07.10

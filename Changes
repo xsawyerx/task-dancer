@@ -1,5 +1,9 @@
 Revision history for Task-Dancer
 
+0.16    14.09.10
+        * Install everything by default
+        * Added Dancer::Plugin::Authorize
+
 0.15    12.09.10
         * Fixed POD
         * Fixed Changes

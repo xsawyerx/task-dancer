@@ -69,8 +69,8 @@ foreach my $type ( keys %features ) {
         my ( $name, $default, $min ) =
             @{ $features{$type}{$semi_namespace} }{qw/ name default min /};
 
-        $default ||= 0;
-        $min     ||= 0;
+        $default ||= 1; # install by default unless otherwise specified
+        $min     ||= 0; # no minimum version by default
 
         feature "$name $type support",
             -default => $default, $full_namespace => $min;

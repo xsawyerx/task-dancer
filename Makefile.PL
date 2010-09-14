@@ -36,6 +36,7 @@ my %features = (
 
     plugin => {
         namespace  => 'Plugin',
+        Authorize  => { name => 'Authentication'              },
         Database   => { name => 'Database'                    },
         DBIC       => { name => 'DBIx::Class interface'       },
         SiteMap    => { name => 'Site map creation'           },

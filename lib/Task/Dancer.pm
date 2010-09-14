@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.15
+Version 0.16
 
 =head1 DESCRIPTION
 
@@ -60,6 +60,8 @@ If you've written anything relating to Dancer, please let me know.
 =head2 L<Dancer::Session::Storable>
 
 =head1 Plugins
+
+=head2 L<Dancer::Plugin::Authorize>
 
 =head2 L<Dancer::Plugin::Database>
 

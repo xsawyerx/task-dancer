@@ -1,5 +1,8 @@
 Revision history for Task-Dancer
 
+0.17    12.10.10
+        * Added Dancer::Plugin::Params::Normalization
+
 0.16    14.09.10
         * Install everything by default
         * Added Dancer::Plugin::Authorize

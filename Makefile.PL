@@ -43,7 +43,7 @@ my %features = (
         REST       => { name => 'RESTful apps'                },
         Email      => { name => 'Email::Stuff integration'    },
         Validation => { name => 'Oogly Data validation'       },
-        Scope      => { name => 'parameter variables scoping' },
+        Scoped     => { name => 'parameter variables scoping' },
 
         'Params::Normalization' => { name => 'query param normalization' },
     },

@@ -1,5 +1,9 @@
 Revision history for Task-Dancer
 
+0.18    20.10.10
+        * Fixed typo for Dancer::Plugin::Scoped
+        (thanks to nmani - Naveen)
+
 0.17    12.10.10
         * Added Dancer::Plugin::Params::Normalization
 

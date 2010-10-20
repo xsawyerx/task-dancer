@@ -2,7 +2,7 @@ NAME
     Task::Dancer - Dancer in a box
 
 VERSION
-    Version 0.13
+    Version 0.18
 
 DESCRIPTION
     This Task installs Dancer, optional engines, templates and assorted
@@ -30,8 +30,11 @@ Session Engines
   Dancer::Session::PSGI
   Dancer::Session::Storable
 Plugins
+  Dancer::Plugin::Authorize
   Dancer::Plugin::Database
+  Dancer::Plugin::DBIC
   Dancer::Plugin::Email
+  Dancer::Plugin::Params::Normalization
   Dancer::Plugin::REST
   Dancer::Plugin::Scoped
   Dancer::Plugin::SiteMap

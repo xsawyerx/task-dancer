@@ -39,6 +39,7 @@ my %features = (
         Authorize  => { name => 'Authentication'              },
         Database   => { name => 'Database'                    },
         DBIC       => { name => 'DBIx::Class interface'       },
+        Mongo      => { name => 'MongoDB'                     },
         SiteMap    => { name => 'Site map creation'           },
         REST       => { name => 'RESTful apps'                },
         Email      => { name => 'Email::Stuff integration'    },

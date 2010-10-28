@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.18';
+our $VERSION = '0.19';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =head1 DESCRIPTION
 
@@ -68,6 +68,8 @@ If you've written anything relating to Dancer, please let me know.
 =head2 L<Dancer::Plugin::DBIC>
 
 =head2 L<Dancer::Plugin::Email>
+
+=head2 L<Dancer::Plugin::Mongo>
 
 =head2 L<Dancer::Plugin::Params::Normalization>
 

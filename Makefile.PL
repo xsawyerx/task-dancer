@@ -37,9 +37,11 @@ my %features = (
     plugin => {
         namespace  => 'Plugin',
         Authorize  => { name => 'Authentication'              },
+        Browser    => { name => 'Browser detection'           },
         Database   => { name => 'Database'                    },
         DBIC       => { name => 'DBIx::Class interface'       },
         Mongo      => { name => 'MongoDB'                     },
+        ORMesque   => { name => 'Light ORM'                   },
         SiteMap    => { name => 'Site map creation'           },
         REST       => { name => 'RESTful apps'                },
         Email      => { name => 'Email::Stuff integration'    },

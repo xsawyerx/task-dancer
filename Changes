@@ -1,5 +1,9 @@
 Revision history for Task-Dancer
 
+0.20    02.11.10
+        * Adding Dancer::Plugin::ORMesque
+        * Adding Dancer::Plugin::Browser
+
 0.19    28.10.10
         * Adding Dancer::Plugin::Mongo
 

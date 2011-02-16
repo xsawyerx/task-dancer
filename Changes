@@ -1,5 +1,26 @@
 Revision history for Task-Dancer
 
+0.21    16.02.11
+        * Adding Dancer::Plugin::DataFu
+        * Adding Dancer::Plugin::Feed
+        * Adding Dancer::Plugin::FlashNote
+        * Adding Dancer::Plugin::FlashMessage
+        * Adding Dancer::Plugin::FormValidator
+        * Adding Dancer::Plugin::Memcached
+        * Adding Dancer::Plugin::MPD
+        * Adding Dancer::Plugin::Redis
+        * Adding Dancer::Plugin::SMS
+        * Adding Dancer::Plugin::WebSocket
+        * Adding Dancer::Plugin::SimpleCRUD
+        * Adding Dancer::Plugin::ValidationClass
+        * Adding and commenting Dancer::Plugin::MobileDevice
+        * Adding and commenting Dancer::Plugin::SporeDefinitionControl
+        * Removing Dancer::Template::Ctpp2 (not automatic)
+        * Commenting Dancer::Plugin::ORMesque (failing 1.103180)
+        * Commenting Dancer::Plugin::Validation (not on CPAN?)
+        * Commenting Dancer::Plugin::Scoped (failing 0.01)
+        * Commenting Dancer::Plugin::REST (failing 0.04)
+
 0.20    02.11.10
         * Adding Dancer::Plugin::ORMesque
         * Adding Dancer::Plugin::Browser

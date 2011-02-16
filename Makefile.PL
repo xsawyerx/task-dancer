@@ -16,7 +16,6 @@ my %features = (
         Mason           => { name => 'HTML::Mason'         },
         MicroTemplate   => { name => 'Text::MicroTemplate' },
         TemplateSandbox => { name => 'Template::Sandbox'   },
-        Ctpp2           => { name => 'HTML::CTPP2'         },
     },
 
     logging => {
@@ -29,26 +28,40 @@ my %features = (
     session => {
         namespace => 'Session',
         Cookie    => { name => 'Encrypted cookie-based'     },
-        Memcache  => { name => 'Cache::Memcached'           },
+        Memcached => { name => 'Cache::Memcached'           },
         PSGI      => { name => 'Plack::Middleware::Session' },
         Storable  => { name => 'Storable file-based'        },
     },
 
     plugin => {
-        namespace  => 'Plugin',
-        Authorize  => { name => 'Authentication'              },
-        Browser    => { name => 'Browser detection'           },
-        Database   => { name => 'Database'                    },
-        DBIC       => { name => 'DBIx::Class interface'       },
-        Mongo      => { name => 'MongoDB'                     },
-        ORMesque   => { name => 'Light ORM'                   },
-        SiteMap    => { name => 'Site map creation'           },
-        REST       => { name => 'RESTful apps'                },
-        Email      => { name => 'Email::Stuff integration'    },
-        Validation => { name => 'Oogly Data validation'       },
-        Scoped     => { name => 'parameter variables scoping' },
+        namespace    => 'Plugin',
 
+        Authorize    => { name => 'Authentication'              },
+        Browser      => { name => 'Browser detection'           },
+        Database     => { name => 'Database'                    },
+        DataFu       => { name => 'Generate HTML tables/forms'  },
+        DBIC         => { name => 'DBIx::Class interface'       },
+        Email        => { name => 'Email::Stuff integration'    },
+        Feed         => { name => 'Generate feed rss or atom'   },
+        FlashMessage => { name => 'Display temporary messages'  },
+        FlashNote    => { name => 'Notification messages'       },
+        FormValidator => { name => 'Easy input validator'       },
+        Memcached    => { name => 'Cache response content'      },
+        # MobileDevice => { name => 'Dancer app mobile-aware'     }, => failing 0.02
+        Mongo        => { name => 'MongoDB'                     },
+        MPD          => { name => 'Easy connection to MPD'      },
+        # ORMesque   => { name => 'Light ORM'                   }, => failing 1.103180
         'Params::Normalization' => { name => 'query param normalization' },
+        Redis        => { name => 'Redis database connections'  },
+        # REST       => { name => 'RESTful apps'                }, => failing 0.04
+        # Scoped     => { name => 'parameter variables scoping' }, => failing 0.01
+        SimpleCRUD   => { name => 'very simple CRUD'            },
+        SiteMap      => { name => 'Site map creation'           },
+        SMS          => { name => 'Easy SMS sending'            },
+        # SporeDefinitionControl => { name => 'Validite route from a Spore' }, => depends on REST
+        # Validation => { name => 'Oogly Data validation'       }, => not available on CPAN?
+        ValidationClass => { name => 'Centralized Input Validation' },
+        WebSocket    => { name => 'Easily create WebSocket apps' },
     },
 
     # for now it's middlewares

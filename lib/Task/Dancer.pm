@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 
 1;
 
@@ -12,14 +12,19 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.20
+Version 0.21
 
 =head1 DESCRIPTION
 
-This Task installs Dancer, optional engines, templates and assorted modules that
-are not included in the Dancer core distribution.
+This Task installs Dancer, optional engines, templates and assorted
+modules that are not included in the Dancer core distribution.
 
-If you've written anything relating to Dancer, please let me know.
+If you've written anything relating to Dancer, please let us know.
+
+We try to maintain a list of modules that are maintained and install
+properly. If any of the modules C<Task::Dancer> tried to install
+failing, warn us, so we can temporarily disable it. Also, tell us
+if any module temporarily disabled is working again.
 
 =head1 Template Engines
 
@@ -53,7 +58,7 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Session::Cookie>
 
-=head2 L<Dancer::Session::Memcache>
+=head2 L<Dancer::Session::Memcached>
 
 =head2 L<Dancer::Session::PSGI>
 
@@ -71,19 +76,45 @@ If you've written anything relating to Dancer, please let me know.
 
 =head2 L<Dancer::Plugin::Email>
 
+=head2 L<Dancer::Plugin::Feed>
+
+=head2 L<Dancer::Plugin::FlashMessage>
+
+=head2 L<Dancer::Plugin::FlashNote>
+
+=head2 L<Dancer::Plugin::FormValidator>
+
+=head2 L<Dancer::Plugin::Memcached>
+
+=head2 L<Dancer::Plugin::MobileDevice> (temporarily disabled)
+
 =head2 L<Dancer::Plugin::Mongo>
 
-=head2 L<Dancer::Plugin::ORMesque>
+=head2 L<Dancer::Plugin::MPD>
+
+=head2 L<Dancer::Plugin::ORMesque> (temporarily disabled)
 
 =head2 L<Dancer::Plugin::Params::Normalization>
 
-=head2 L<Dancer::Plugin::REST>
+=head2 L<Dancer::Plugin::Redis>
 
-=head2 L<Dancer::Plugin::Scoped>
+=head2 L<Dancer::Plugin::REST> (temporarily disabled)
+
+=head2 L<Dancer::Plugin::Scoped> (temporarily disabled)
+
+=head2 L<Dancer::Plugin::SimpleCRUD>
 
 =head2 L<Dancer::Plugin::SiteMap>
 
-=head2 L<Dancer::Plugin::Validation>
+=head2 L<Dancer::Plugin::SMS>
+
+=head2 L<Dancer::Plugin::SporeDefinitionControl> (temporarily disabled)
+
+=head2 L<Dancer::Plugin::Validation> (temporarily disabled)
+
+=head2 L<Dancer::Plugin::ValidationClass>
+
+=head2 L<Dancer::Plugin::WebSocket>
 
 =head1 More Plack middlewares
 
@@ -135,7 +166,7 @@ L<Dancer> team.
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2010 Sawyer X.
+Copyright 2010-2011 Sawyer X.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

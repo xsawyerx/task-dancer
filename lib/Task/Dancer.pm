@@ -140,6 +140,8 @@ if any module temporarily disabled is working again.
 
 Sawyer X, C<< <xsawyerx at cpan.org> >>
 
+Alberto Simoes, C<< <ambs at cpan.org> >>
+
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-task-dancer at rt.cpan.org>,

@@ -2,6 +2,7 @@
 abstract: 'Dancer in a box'
 author:
   - 'Sawyer X <xsawyerx@cpan.org>'
+  - 'Alberto Simoes <ambs@cpan.org>'
 build_requires:
   Test::More: 0
 generated_by: 'Sawyer X INC. :)'

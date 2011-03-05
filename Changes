@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Removing Dancer::Plugin::Authorize (deprecated)
+
 0.22    05.03.11
         * Adding Dancer::Plugin::Auth::RBAC
         * Adding Dancer::Plugin::Auth::Twitter

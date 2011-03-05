@@ -70,8 +70,6 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Plugin::Auth::Twitter>
 
-=head2 L<Dancer::Plugin::Authorize>
-
 =head2 L<Dancer::Plugin::Browser>
 
 =head2 L<Dancer::Plugin::Database>

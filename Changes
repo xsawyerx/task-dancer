@@ -1,5 +1,16 @@
 Revision history for Task-Dancer
 
+0.22    05.03.11
+        * Adding Dancer::Plugin::Auth::RBAC
+        * Adding Dancer::Plugin::Auth::Twitter
+        * Adding Dancer::Plugin::DebugDump
+        * Adding Dancer::Plugin::MemcachedFast
+        * Adding Dancer::Plugin::Facebook
+        * Adding Dancer::Plugin::FormattedOutput
+        * Uncommenting Dancer::Plugin::Rest (force 0.05)
+        * Adding and commenting Dancer::Plugin::GearmanXS (failing 0.110570)
+        * Adding and commenting Dancer::Plugin::ProxyPath (failing 0.01)
+
 0.21    16.02.11
         * Adding Dancer::Plugin::DataFu
         * Adding Dancer::Plugin::Feed

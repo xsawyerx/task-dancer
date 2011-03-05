@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.21';
+our $VERSION = '0.22';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -66,6 +66,10 @@ if any module temporarily disabled is working again.
 
 =head1 Plugins
 
+=head2 L<Dancer::Plugin::Auth::RBAC>
+
+=head2 L<Dancer::Plugin::Auth::Twitter>
+
 =head2 L<Dancer::Plugin::Authorize>
 
 =head2 L<Dancer::Plugin::Browser>
@@ -74,7 +78,11 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Plugin::DBIC>
 
+=head2 L<Dancer::Plugin::DebugDump>
+
 =head2 L<Dancer::Plugin::Email>
+
+=head2 L<Dancer::Plugin::Facebook>
 
 =head2 L<Dancer::Plugin::Feed>
 
@@ -82,9 +90,15 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Plugin::FlashNote>
 
+=head2 L<Dancer::Plugin::FormattedOutput>
+
 =head2 L<Dancer::Plugin::FormValidator>
 
+=head2 L<Dancer::Plugin::GearmanXS> (temporarily disabled)
+
 =head2 L<Dancer::Plugin::Memcached>
+
+=head2 L<Dancer::Plugin::MemcachedFast>
 
 =head2 L<Dancer::Plugin::MobileDevice> (temporarily disabled)
 
@@ -95,6 +109,8 @@ if any module temporarily disabled is working again.
 =head2 L<Dancer::Plugin::ORMesque> (temporarily disabled)
 
 =head2 L<Dancer::Plugin::Params::Normalization>
+
+=head2 L<Dancer::Plugin::ProxyPath> (temporarily disabled)
 
 =head2 L<Dancer::Plugin::Redis>
 

@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.22';
+our $VERSION = '0.23';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.22
+Version 0.23
 
 =head1 DESCRIPTION
 
@@ -38,7 +38,13 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Template::Mason>
 
+=head2 L<Dancer::Template::Mason2> (disabled temporarily)
+
 =head2 L<Dancer::Template::MicroTemplate>
+
+=head2 L<Dancer::Template::MojoTemplate>
+
+=head2 L<Dancer::Template::Semantic>
 
 =head2 L<Dancer::Template::TemplateSandbox>
 
@@ -46,17 +52,29 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Template::Tiny>
 
+=head2 L<Dancer::Template::Xslate>
+
 =head1 Logging Engines
 
+=head2 L<Dancer::Logger::ConsoleSpinner>
+
 =head2 L<Dancer::Logger::LogHandler>
+
+=head2 L<Dancer::Logger::Pipe>
 
 =head2 L<Dancer::Logger::PSGI>
 
 =head2 L<Dancer::Logger::Syslog>
 
+=head1 Serialization
+
+=head2 L<Dancer::Serializer::UUEncode>
+
 =head1 Session Engines
 
 =head2 L<Dancer::Session::Cookie>
+
+=head2 L<Dancer::Session::KiokuDB>
 
 =head2 L<Dancer::Session::Memcached>
 
@@ -122,7 +140,7 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Plugin::SMS>
 
-=head2 L<Dancer::Plugin::SporeDefinitionControl> (temporarily disabled)
+=head2 L<Dancer::Plugin::SporeDefinitionControl>
 
 =head2 L<Dancer::Plugin::Validation> (temporarily disabled)
 
@@ -131,6 +149,8 @@ if any module temporarily disabled is working again.
 =head2 L<Dancer::Plugin::WebSocket>
 
 =head1 More Plack middlewares
+
+=head2 L<Dancer::Middleware::Reabase>
 
 =head2 L<Dancer::Debug>
 

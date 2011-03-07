@@ -7,6 +7,7 @@ use inc::Module::Install;
 my %features = (
     templating => {
         namespace       => 'Template',
+
         Tiny            => { name => 'Template::Tiny', min => '0.02' },
         HtmlTemplate    => { name => 'HTML::Template', min => '0.02' },
 
@@ -14,20 +15,35 @@ my %features = (
         Tenjin          => { name => 'Tenjin'              },
         Haml            => { name => 'Text::HAML'          },
         Mason           => { name => 'HTML::Mason'         },
+        # Mason2          => { name => 'HTML::Mason2'        }, => failing 0.01
         MicroTemplate   => { name => 'Text::MicroTemplate' },
+        MojoTemplate    => { name => 'Mojo::Template wrapper for Dancer' },
+        Semantic        => { name => 'Semantic Template wrapper for Dancer' },
         TemplateSandbox => { name => 'Template::Sandbox'   },
+        Xslate          => { name => 'Text::Xslate wrapper for Dancer' },
     },
 
     logging => {
         namespace  => 'Logger',
-        LogHandler => { name => 'Log::Handler' },
-        PSGI       => { name => 'PSGI'         },
-        Syslog     => { name => 'Sys::Syslog'  },
+
+        LogHandler => { name => 'Log::Handler'                               },
+        Pipe       => { name => 'Pipe-based logging engine for Dancer'       },
+        PSGI       => { name => 'PSGI'                                       },
+        Spinner    => { name => 'Show a spinner in the console log messages' },
+        Syslog     => { name => 'Sys::Syslog'                                },
+    },
+
+    serialization => {
+        namespace => 'Serializer',
+
+        UUEncode => { name => 'UU Encoding serializer' },
     },
 
     session => {
         namespace => 'Session',
+
         Cookie    => { name => 'Encrypted cookie-based'     },
+        # KiokuDB   => { name => 'KiokuDB Dancer session backend' }, => failing 0.03
         Memcached => { name => 'Cache::Memcached'           },
         PSGI      => { name => 'Plack::Middleware::Session' },
         Storable  => { name => 'Storable file-based'        },
@@ -62,10 +78,10 @@ my %features = (
         Redis         => { name => 'Redis database connections'  },
         REST          => { name => 'RESTful apps', min => '0.05' },
         # Scoped      => { name => 'parameter variables scoping' }, => failing 0.01
-        SimpleCRUD    => { name => 'very simple CRUD'            },
+        SimpleCRUD    => { name => 'very simple CRUD', min => '0.02' },
         SiteMap       => { name => 'Site map creation'           },
         SMS           => { name => 'Easy SMS sending'            },
-        # SporeDefinitionControl => { name => 'Validite route from a Spore' }, => depends on REST
+        SporeDefinitionControl => { name => 'Validite route from a Spore' },
         # Validation  => { name => 'Oogly Data validation'       }, => not available on CPAN?
         ValidationClass => { name => 'Centralized Input Validation' },
         WebSocket     => { name => 'Easily create WebSocket apps' },
@@ -73,7 +89,12 @@ my %features = (
 
     # for now it's middlewares
     middleware => {
-        'Debug' => { name => 'Plack::Middleware::Debug' },
+        namespace => 'Middleware',
+        Rebase => { name => 'Plack middleware for Dancer' },
+    },
+
+    other => {
+        Debug => { name => 'Plack::Middleware::Debug' },
     },
 );
 

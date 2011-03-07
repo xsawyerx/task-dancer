@@ -1,5 +1,17 @@
 Revision history for Task-Dancer
 
+0.23    07.03.11
+        * Adding Dancer::Logger::Pipe
+        * Adding Dancer::Template::Xslate
+        * Adding Dancer::Template::MojoTemplate
+        * Adding Dancer::Middleware::Reabase
+        * Adding Dancer::Template::Semantic
+        * Adding Dancer::Session::KiokuDB
+        * Adding Dancer::Serializer::UUEncode
+        * Adding Dancer::Logger::ConsoleSpinner
+        * Forcing Dancer::Plugin::SimpleCRUD, version 0.02 (for Dancer 1.3)
+        * Uncommenting Dancer::Plugin::SporeDefinitionControl
+        * Adding and commenting Dancer::Template::Mason2 (failing 0.01)
         * Removing Dancer::Plugin::Authorize (deprecated)
 
 0.22    05.03.11

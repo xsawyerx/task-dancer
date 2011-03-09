@@ -43,7 +43,8 @@ my %features = (
         namespace => 'Session',
 
         Cookie    => { name => 'Encrypted cookie-based'     },
-        # KiokuDB   => { name => 'KiokuDB Dancer session backend' }, => failing 0.03
+        KiokuDB   => { name => 'KiokuDB Dancer session backend',
+                       min => '0.04' },
         Memcached => { name => 'Cache::Memcached'           },
         PSGI      => { name => 'Plack::Middleware::Session' },
         Storable  => { name => 'Storable file-based'        },

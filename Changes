@@ -1,6 +1,9 @@
 Revision history for Task-Dancer
 
+0.24    11.03.11
+        * Adding Dancer::Logger::Log4perl
         * Uncommenting Dancer::Session::KiokuDB (forcing 0.04)
+        * Uncommenting Dancer::Template::Mason2 (forcing 0.02)
 
 0.23    07.03.11
         * Adding Dancer::Logger::Pipe

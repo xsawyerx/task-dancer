@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.23';
+our $VERSION = '0.24';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.23
+Version 0.24
 
 =head1 DESCRIPTION
 
@@ -38,7 +38,7 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Template::Mason>
 
-=head2 L<Dancer::Template::Mason2> (disabled temporarily)
+=head2 L<Dancer::Template::Mason2>
 
 =head2 L<Dancer::Template::MicroTemplate>
 
@@ -57,6 +57,8 @@ if any module temporarily disabled is working again.
 =head1 Logging Engines
 
 =head2 L<Dancer::Logger::ConsoleSpinner>
+
+=head2 L<Dancer::Logger::Log4perl>
 
 =head2 L<Dancer::Logger::LogHandler>
 

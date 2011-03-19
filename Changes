@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plug::Cache
+
 0.24    11.03.11
         * Adding Dancer::Logger::Log4perl
         * Uncommenting Dancer::Session::KiokuDB (forcing 0.04)

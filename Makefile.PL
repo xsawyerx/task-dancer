@@ -57,6 +57,7 @@ my %features = (
         'Auth::RBAC'  => { name => 'Authentication, Security and Role-Based Access Control' },
         'Auth::Twitter' => { name => 'Authenticate with Twitter' },
         Browser       => { name => 'Browser detection'           },
+        Cache         => { name => 'Plugin to cache response content' },
         Database      => { name => 'Database'                    },
         DataFu        => { name => 'Generate HTML tables/forms'  },
         DBIC          => { name => 'DBIx::Class interface'       },

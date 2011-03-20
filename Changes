@@ -1,5 +1,6 @@
 Revision history for Task-Dancer
 
+0.25    20.03.11
         * Adding Dancer::Plug::Cache
 
 0.24    11.03.11

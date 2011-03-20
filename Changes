@@ -1,7 +1,7 @@
 Revision history for Task-Dancer
 
 0.25    20.03.11
-        * Adding Dancer::Plug::Cache
+        * Adding Dancer::Plugin::Cache
 
 0.24    11.03.11
         * Adding Dancer::Logger::Log4perl

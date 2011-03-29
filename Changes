@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plugin::Captcha::SecurityImage
+
 0.25    20.03.11
         * Adding Dancer::Plugin::Cache
 

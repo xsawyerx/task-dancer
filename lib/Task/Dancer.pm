@@ -94,6 +94,8 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Plugin::Cache>
 
+=head2 L<Dancer::Plugin::Captcha::SecurityImage>
+
 =head2 L<Dancer::Plugin::Database>
 
 =head2 L<Dancer::Plugin::DBIC>

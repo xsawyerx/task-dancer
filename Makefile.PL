@@ -58,6 +58,8 @@ my %features = (
         'Auth::Twitter' => { name => 'Authenticate with Twitter' },
         Browser       => { name => 'Browser detection'           },
         Cache         => { name => 'Plugin to cache response content' },
+        'Captcha::SecurityImage' => {name => 'Generate and verify GD::SecurityImage captchas',
+                                     default => 0 },
         Database      => { name => 'Database'                    },
         DataFu        => { name => 'Generate HTML tables/forms'  },
         DBIC          => { name => 'DBIx::Class interface'       },

@@ -132,6 +132,8 @@ if any module temporarily disabled is working again.
 
 =head2 L<Dancer::Plugin::Params::Normalization>
 
+=head2 L<Dancer::Plugin::Progress>
+
 =head2 L<Dancer::Plugin::ProxyPath>
 
 =head2 L<Dancer::Plugin::Redis>

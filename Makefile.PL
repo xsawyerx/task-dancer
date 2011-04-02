@@ -79,6 +79,7 @@ my %features = (
         MPD           => { name => 'Easy connection to MPD'      },
         # ORMesque    => { name => 'Light ORM'                   }, => failing 1.103180
         'Params::Normalization' => { name => 'query param normalization' },
+        Progress      => { name => 'display a progress bar during long-running requests' },
         ProxyPath     => { name => 'Provides user-perspective paths' },
         Redis         => { name => 'Redis database connections'  },
         REST          => { name => 'RESTful apps', min => '0.05' },

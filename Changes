@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plugin::Progress
+
 0.26    29.03.11
         * Fixed Makefile.PL and behavior with default modules
         * Adding Dancer::Plugin::Captcha::SecurityImage

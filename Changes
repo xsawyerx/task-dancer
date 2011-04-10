@@ -1,8 +1,6 @@
 Revision history for Task-Dancer
 
-0.27 ... waiting for MobileDevice
-
-        ## ?? what's this for ?? ## * Adding Dancer::Plugin::Fake::Response
+0.27 .. ## waiting for MobileDevice 0.03 on CPAN
         * Deprecating Dancer::Plugin::Cache, and
         * Adding Dancer::Plugin::Cache::CHI
         * Adding Dancer::Plugin::Progress

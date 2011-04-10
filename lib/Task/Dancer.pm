@@ -26,141 +26,163 @@ properly. If any of the modules C<Task::Dancer> tried to install
 failing, warn us, so we can temporarily disable it. Also, tell us
 if any module temporarily disabled is working again.
 
-=head1 Template Engines
+=head1 INCLUDES MODULES
 
-=head2 L<Dancer::Template::Alloy>
+=head2 Template Engines
 
-=head2 L<Dancer::Template::Ctpp2>
+=over 4
 
-=head2 L<Dancer::Template::HAML>
+=item L<Dancer::Template::Alloy>
 
-=head2 L<Dancer::Template::HtmlTemplate>
+=item L<Dancer::Template::Ctpp2>
 
-=head2 L<Dancer::Template::Mason>
+=item L<Dancer::Template::HAML>
 
-=head2 L<Dancer::Template::Mason2>
+=item L<Dancer::Template::HtmlTemplate>
 
-=head2 L<Dancer::Template::MicroTemplate>
+=item L<Dancer::Template::Mason>
 
-=head2 L<Dancer::Template::MojoTemplate>
+=item L<Dancer::Template::Mason2>
 
-=head2 L<Dancer::Template::Semantic>
+=item L<Dancer::Template::MicroTemplate>
 
-=head2 L<Dancer::Template::TemplateSandbox>
+=item L<Dancer::Template::MojoTemplate>
 
-=head2 L<Dancer::Template::Tenjin>
+=item L<Dancer::Template::Semantic>
 
-=head2 L<Dancer::Template::Tiny>
+=item L<Dancer::Template::TemplateSandbox>
 
-=head2 L<Dancer::Template::Xslate>
+=item L<Dancer::Template::Tenjin>
 
-=head1 Logging Engines
+=item L<Dancer::Template::Tiny>
 
-=head2 L<Dancer::Logger::ConsoleSpinner>
+=item L<Dancer::Template::Xslate>
 
-=head2 L<Dancer::Logger::Log4perl>
+=back
 
-=head2 L<Dancer::Logger::LogHandler>
+=head2 Logging Engines
 
-=head2 L<Dancer::Logger::Pipe>
+=over 4
 
-=head2 L<Dancer::Logger::PSGI>
+=item L<Dancer::Logger::ConsoleSpinner>
 
-=head2 L<Dancer::Logger::Syslog>
+=item L<Dancer::Logger::Log4perl>
 
-=head1 Serialization
+=item L<Dancer::Logger::LogHandler>
 
-=head2 L<Dancer::Serializer::UUEncode>
+=item L<Dancer::Logger::Pipe>
 
-=head1 Session Engines
+=item L<Dancer::Logger::PSGI>
 
-=head2 L<Dancer::Session::Cookie>
+=item L<Dancer::Logger::Syslog>
 
-=head2 L<Dancer::Session::KiokuDB>
+=back
 
-=head2 L<Dancer::Session::Memcached>
+=head2 Serialization
 
-=head2 L<Dancer::Session::PSGI>
+=over 4
 
-=head2 L<Dancer::Session::Storable>
+=item L<Dancer::Serializer::UUEncode>
 
-=head1 Plugins
+=back
 
-=head2 L<Dancer::Plugin::Auth::RBAC>
+=head2 Session Engines
 
-=head2 L<Dancer::Plugin::Auth::Twitter>
+=over 4
 
-=head2 L<Dancer::Plugin::Browser>
+=item L<Dancer::Session::Cookie>
 
-=head2 L<Dancer::Plugin::Cache::CHI>
+=item L<Dancer::Session::KiokuDB>
 
-=head2 L<Dancer::Plugin::Captcha::SecurityImage>
+=item L<Dancer::Session::Memcached>
 
-=head2 L<Dancer::Plugin::Database>
+=item L<Dancer::Session::PSGI>
 
-=head2 L<Dancer::Plugin::DBIC>
+=item L<Dancer::Session::Storable>
 
-=head2 L<Dancer::Plugin::DebugDump>
+=back
 
-=head2 L<Dancer::Plugin::Email>
+=head2 Plugins
 
-=head2 L<Dancer::Plugin::Facebook>
+=over 4
 
-=head2 L<Dancer::Plugin::Feed>
+=item L<Dancer::Plugin::Auth::RBAC>
 
-=head2 L<Dancer::Plugin::FlashMessage>
+=item L<Dancer::Plugin::Auth::Twitter>
 
-=head2 L<Dancer::Plugin::FlashNote>
+=item L<Dancer::Plugin::Browser>
 
-=head2 L<Dancer::Plugin::FormattedOutput>
+=item L<Dancer::Plugin::Cache::CHI>
 
-=head2 L<Dancer::Plugin::FormValidator>
+=item L<Dancer::Plugin::Captcha::SecurityImage>
 
-=head2 L<Dancer::Plugin::GearmanXS> (temporarily disabled)
+=item L<Dancer::Plugin::Database>
 
-=head2 L<Dancer::Plugin::Memcached>
+=item L<Dancer::Plugin::DBIC>
 
-=head2 L<Dancer::Plugin::MemcachedFast>
+=item L<Dancer::Plugin::DebugDump>
 
-=head2 L<Dancer::Plugin::MobileDevice>
+=item L<Dancer::Plugin::Email>
 
-=head2 L<Dancer::Plugin::Mongo>
+=item L<Dancer::Plugin::Facebook>
 
-=head2 L<Dancer::Plugin::MPD>
+=item L<Dancer::Plugin::Feed>
 
-=head2 L<Dancer::Plugin::ORMesque> (temporarily disabled)
+=item L<Dancer::Plugin::FlashMessage>
 
-=head2 L<Dancer::Plugin::Params::Normalization>
+=item L<Dancer::Plugin::FlashNote>
 
-=head2 L<Dancer::Plugin::Progress>
+=item L<Dancer::Plugin::FormattedOutput>
 
-=head2 L<Dancer::Plugin::ProxyPath>
+=item L<Dancer::Plugin::FormValidator>
 
-=head2 L<Dancer::Plugin::Redis>
+=item L<Dancer::Plugin::GearmanXS> (temporarily disabled)
 
-=head2 L<Dancer::Plugin::REST>
+=item L<Dancer::Plugin::Memcached>
 
-=head2 L<Dancer::Plugin::Scoped> (temporarily disabled)
+=item L<Dancer::Plugin::MemcachedFast>
 
-=head2 L<Dancer::Plugin::SimpleCRUD>
+=item L<Dancer::Plugin::MobileDevice>
 
-=head2 L<Dancer::Plugin::SiteMap>
+=item L<Dancer::Plugin::Mongo>
 
-=head2 L<Dancer::Plugin::SMS>
+=item L<Dancer::Plugin::MPD>
 
-=head2 L<Dancer::Plugin::SporeDefinitionControl>
+=item L<Dancer::Plugin::ORMesque> (temporarily disabled)
 
-=head2 L<Dancer::Plugin::Validation> (temporarily disabled)
+=item L<Dancer::Plugin::Params::Normalization>
 
-=head2 L<Dancer::Plugin::ValidationClass>
+=item L<Dancer::Plugin::Progress>
 
-=head2 L<Dancer::Plugin::WebSocket>
+=item L<Dancer::Plugin::ProxyPath>
+
+=item L<Dancer::Plugin::Redis>
+
+=item L<Dancer::Plugin::REST>
+
+=item L<Dancer::Plugin::Scoped> (temporarily disabled)
+
+=item L<Dancer::Plugin::SimpleCRUD>
+
+=item L<Dancer::Plugin::SiteMap>
+
+=item L<Dancer::Plugin::SMS>
+
+=item L<Dancer::Plugin::SporeDefinitionControl>
+
+=item L<Dancer::Plugin::Validation> (temporarily disabled)
+
+=item L<Dancer::Plugin::ValidationClass>
+
+=item L<Dancer::Plugin::WebSocket>
 
 =head1 More Plack middlewares
 
-=head2 L<Dancer::Middleware::Reabase>
+=item L<Dancer::Middleware::Reabase>
 
-=head2 L<Dancer::Debug>
+=item L<Dancer::Debug>
+
+=back
 
 =head1 AUTHOR
 

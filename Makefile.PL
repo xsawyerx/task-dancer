@@ -57,7 +57,7 @@ my %features = (
         'Auth::RBAC'  => { name => 'Authentication, Security and Role-Based Access Control' },
         'Auth::Twitter' => { name => 'Authenticate with Twitter' },
         Browser       => { name => 'Browser detection'           },
-        Cache         => { name => 'Plugin to cache response content' },
+        'Cache::CHI'  => { name => 'Plugin to cache response content' },
         'Captcha::SecurityImage' => {name => 'Generate and verify GD::SecurityImage captchas',
                                      default => 0 },
         Database      => { name => 'Database'                    },
@@ -66,6 +66,7 @@ my %features = (
         DebugDump     => { name => 'dump objects to debug log'   },
         Email         => { name => 'Email::Stuff integration'    },
         Facebook      => { name => 'Plugin linking Dancer with Facebook::Graph' },
+        # 'Fake::Response' => { name => '...?' }.
         Feed          => { name => 'Generate feed rss or atom'   },
         FlashMessage  => { name => 'Display temporary messages'  },
         FlashNote     => { name => 'Notification messages'       },
@@ -74,7 +75,7 @@ my %features = (
         # GearmanXS     => { name => 'a Dancer Gearman::XS client' }, => failing 0.110570
         Memcached     => { name => 'Cache response content'      },
         MemcachedFast => { name => 'Cache things using Cache::Memcached::Fast' },
-        # MobileDevice => { name => 'Dancer app mobile-aware'     }, => failing 0.02
+        MobileDevice  => { name => 'Dancer app mobile-aware', min => '0.03' },
         Mongo         => { name => 'MongoDB'                     },
         MPD           => { name => 'Easy connection to MPD'      },
         # ORMesque    => { name => 'Light ORM'                   }, => failing 1.103180

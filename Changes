@@ -1,6 +1,12 @@
 Revision history for Task-Dancer
 
+0.27 ... waiting for MobileDevice
+
+        ## ?? what's this for ?? ## * Adding Dancer::Plugin::Fake::Response
+        * Deprecating Dancer::Plugin::Cache, and
+        * Adding Dancer::Plugin::Cache::CHI
         * Adding Dancer::Plugin::Progress
+        * Uncommenting Dancer::Plugin::MobileDevice (forcing 0.03)
 
 0.26    29.03.11
         * Fixed Makefile.PL and behavior with default modules

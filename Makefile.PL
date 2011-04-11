@@ -63,14 +63,14 @@ my %features = (
         'Cache::CHI'    => { name => 'Plugin to cache response content' },
         'Captcha::SecurityImage' => {
                              name    => 'Generate and verify GD::SecurityImage captchas',
-                             default => 0                               },
+                             default => 0                          },
         Database        => { name => 'Database'                    },
         DataFu          => { name => 'Generate HTML tables/forms'  },
         DBIC            => { name => 'DBIx::Class interface'       },
         DebugDump       => { name => 'dump objects to debug log'   },
         Email           => { name => 'Email::Stuff integration'    },
         Facebook        => { name => 'Plugin linking Dancer with Facebook::Graph' },
-        'Fake::Response' => { name => 'Fake request for inremental implementations' }.
+        'Fake::Response' => { name => 'Fake request for inremental implementations' },
         Feed            => { name => 'Generate feed rss or atom'   },
         FlashMessage    => { name => 'Display temporary messages'  },
         FlashNote       => { name => 'Notification messages'       },

@@ -126,6 +126,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Facebook>
 
+=item L<Dancer::Plugin::Fake::Response>
+
 =item L<Dancer::Plugin::Feed>
 
 =item L<Dancer::Plugin::FlashMessage>

@@ -70,7 +70,7 @@ my %features = (
         DebugDump       => { name => 'dump objects to debug log'   },
         Email           => { name => 'Email::Stuff integration'    },
         Facebook        => { name => 'Plugin linking Dancer with Facebook::Graph' },
-        # 'Fake::Response' => { name => '...?' }.
+        'Fake::Response' => { name => 'Fake request for inremental implementations' }.
         Feed            => { name => 'Generate feed rss or atom'   },
         FlashMessage    => { name => 'Display temporary messages'  },
         FlashNote       => { name => 'Notification messages'       },

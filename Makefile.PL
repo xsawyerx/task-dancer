@@ -57,6 +57,7 @@ my %features = (
     plugin => {
         namespace    => 'Plugin',
 
+        Async           => { name => 'write async request handlers with Twiggy' },
         'Auth::RBAC'    => { name => 'Authentication, Security and Role-Based Access Control' },
         'Auth::Twitter' => { name => 'Authenticate with Twitter' },
         Browser         => { name => 'Browser detection'         },

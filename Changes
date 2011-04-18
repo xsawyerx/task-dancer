@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plugin::Async
+
 0.27    11.04.11
         * Adding Dancer::Plugin::Fake::Response
         * Deprecating Dancer::Plugin::Cache, and

@@ -106,6 +106,8 @@ if any module temporarily disabled is working again.
 
 =over 4
 
+=item L<Dancer::Plugin::Async>
+
 =item L<Dancer::Plugin::Auth::RBAC>
 
 =item L<Dancer::Plugin::Auth::Twitter>

@@ -82,7 +82,7 @@ my %features = (
         MemcachedFast   => { name => 'Cache things using Cache::Memcached::Fast' },
         MobileDevice    => { name => 'Dancer app mobile-aware',
                              min  => '0.03'                        },
-        Mongo           => { name => 'MongoDB'                     },
+        # Mongo           => { name => 'MongoDB'                     },
         MPD             => { name => 'Easy connection to MPD'      },
         # ORMesque      => { name => 'Light ORM'                   }, => failing 1.103180
         'Params::Normalization' => { name => 'query param normalization' },
@@ -97,6 +97,7 @@ my %features = (
         SiteMap         => { name => 'Site map creation'           },
         SMS             => { name => 'Easy SMS sending'            },
         SporeDefinitionControl => { name => 'Validite route from a Spore' },
+        TimeRequests    => { name => 'Log how long each request took to process' },
         # Validation    => { name => 'Oogly Data validation'       }, => not available on CPAN?
         ValidationClass => { name => 'Centralized Input Validation' },
         WebSocket       => { name => 'Easily create WebSocket apps' },

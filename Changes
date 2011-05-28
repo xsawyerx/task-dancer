@@ -1,5 +1,8 @@
 Revision history for Task-Dancer
 
+0.28    28.05.11
+        * Commenting Dancer::Plugin::Mongo (MongoDB not installing)
+        * Adding Dancer::Plugin::TimeRequests
         * Adding Dancer::Plugin::Async
 
 0.27    11.04.11

@@ -22,13 +22,15 @@ my %features = (
         MicroTemplate   => { name => 'Text::MicroTemplate' },
         MojoTemplate    => { name => 'Mojo::Template wrapper for Dancer'     },
         Semantic        => { name => 'Semantic Template wrapper for Dancer'  },
-        TemplateSandbox => { name => 'Template::Sandbox'   },
+        TemplateFlute   => { name => 'Template::Flute wrapper for Dancer'    },
+        TemplateSandbox => { name => 'Template::Sandbox'                     },
         Xslate          => { name => 'Text::Xslate wrapper for Dancer'       },
     },
 
     logging => {
         namespace  => 'Logger',
 
+        ColorConsole => { name => 'A colorful console logger'                },
         LogHandler => { name => 'Log::Handler'                               },
         Log4perl   => { name => 'Log4Perl'                                   },
         Pipe       => { name => 'Pipe-based logging engine for Dancer'       },
@@ -46,12 +48,13 @@ my %features = (
     session => {
         namespace => 'Session',
 
-        Cookie    => { name => 'Encrypted cookie-based'          },
+        Cookie    => { name => 'Encrypted cookie-based'             },
         KiokuDB   => { name => 'KiokuDB Dancer session backend',
-                       min  => '0.04'                            },
-        Memcached => { name => 'Cache::Memcached'                },
-        PSGI      => { name => 'Plack::Middleware::Session'      },
-        Storable  => { name => 'Storable file-based'             },
+                       min  => '0.04'                               },
+        Memcached => { name => 'Cache::Memcached'                   },
+        MongoDB   => { name => 'MongoDB session backend for Dancer' },
+        PSGI      => { name => 'Plack::Middleware::Session'         },
+        Storable  => { name => 'Storable file-based'                },
     },
 
     plugin => {
@@ -59,9 +62,10 @@ my %features = (
 
         Async           => { name => 'write async request handlers with Twiggy' },
         'Auth::RBAC'    => { name => 'Authentication, Security and Role-Based Access Control' },
-        'Auth::Twitter' => { name => 'Authenticate with Twitter' },
-        Browser         => { name => 'Browser detection'         },
-        'Cache::CHI'    => { name => 'Plugin to cache response content' },
+        'Auth::Twitter' => { name => 'Authenticate with Twitter'                },
+        Bcrypt          => { name => 'Bcrypt interface for Dancer'              },
+        Browser         => { name => 'Browser detection'                        },
+        'Cache::CHI'    => { name => 'Plugin to cache response content'         },
         'Captcha::SecurityImage' => {
                              name    => 'Generate and verify GD::SecurityImage captchas',
                              default => 0                          },
@@ -77,12 +81,11 @@ my %features = (
         FlashNote       => { name => 'Notification messages'       },
         FormattedOutput => { name => 'Provide output in a variety of formats' },
         FormValidator   => { name => 'Easy input validator'        },
-        # GearmanXS     => { name => 'a Dancer Gearman::XS client' }, => failing 0.110570
         Memcached       => { name => 'Cache response content'      },
         MemcachedFast   => { name => 'Cache things using Cache::Memcached::Fast' },
         MobileDevice    => { name => 'Dancer app mobile-aware',
                              min  => '0.03'                        },
-        # Mongo           => { name => 'MongoDB'                     },
+        Mongo           => { name => 'MongoDB'                     },
         MPD             => { name => 'Easy connection to MPD'      },
         # ORMesque      => { name => 'Light ORM'                   }, => failing 1.103180
         'Params::Normalization' => { name => 'query param normalization' },
@@ -101,6 +104,7 @@ my %features = (
         # Validation    => { name => 'Oogly Data validation'       }, => not available on CPAN?
         ValidationClass => { name => 'Centralized Input Validation' },
         WebSocket       => { name => 'Easily create WebSocket apps' },
+        'XML::RSS'      => { name => 'XML::RSS to parse or create RSS feeds' },
     },
 
     # for now it's middlewares

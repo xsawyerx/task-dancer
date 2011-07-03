@@ -1,5 +1,13 @@
 Revision history for Task-Dancer
 
+0.29    03.07.11
+        * Adding Dancer::Plugin::Bcrypt
+        * Adding Dancer::Plugin::XML::RSS
+        * Adding Dancer::Session::MongoDB
+        * Adding Dancer::Template::TemplateFlute
+        * Adding Dancer::Logger::ColorConsole
+        * Uncommenting Dancer::Plugin::Mongo
+
 0.28    28.05.11
         * Commenting Dancer::Plugin::Mongo (MongoDB not installing)
         * Adding Dancer::Plugin::TimeRequests

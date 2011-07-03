@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.28';
+our $VERSION = '0.29';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.28
+Version 0.29
 
 =head1 DESCRIPTION
 
@@ -50,6 +50,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Template::Semantic>
 
+=item L<Dancer::Template::TemplateFlute>
+
 =item L<Dancer::Template::TemplateSandbox>
 
 =item L<Dancer::Template::Tenjin>
@@ -63,6 +65,8 @@ if any module temporarily disabled is working again.
 =head2 Logging Engines
 
 =over 4
+
+=item L<Dancer::Logger::ColorConsole>
 
 =item L<Dancer::Logger::ConsoleSpinner>
 
@@ -96,6 +100,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Session::Memcached>
 
+=item L<Dancer::Session::MongoDB>
+
 =item L<Dancer::Session::PSGI>
 
 =item L<Dancer::Session::Storable>
@@ -111,6 +117,8 @@ if any module temporarily disabled is working again.
 =item L<Dancer::Plugin::Auth::RBAC>
 
 =item L<Dancer::Plugin::Auth::Twitter>
+
+=item L<Dancer::Plugin::Bcrypt>
 
 =item L<Dancer::Plugin::Browser>
 
@@ -140,15 +148,13 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::FormValidator>
 
-=item L<Dancer::Plugin::GearmanXS> (temporarily disabled)
-
 =item L<Dancer::Plugin::Memcached>
 
 =item L<Dancer::Plugin::MemcachedFast>
 
 =item L<Dancer::Plugin::MobileDevice>
 
-=item L<Dancer::Plugin::Mongo> (temporarily disabled)
+=item L<Dancer::Plugin::Mongo>
 
 =item L<Dancer::Plugin::MPD>
 
@@ -181,6 +187,8 @@ if any module temporarily disabled is working again.
 =item L<Dancer::Plugin::ValidationClass>
 
 =item L<Dancer::Plugin::WebSocket>
+
+=item L<Dancer::Plugin::XML::RSS>
 
 =head1 More Plack middlewares
 

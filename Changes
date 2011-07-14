@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plugin::Thumbnail
+
 0.29    03.07.11
         * Adding Dancer::Plugin::Bcrypt
         * Adding Dancer::Plugin::XML::RSS

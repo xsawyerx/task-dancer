@@ -132,6 +132,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::DebugDump>
 
+=item L<Dancer::Plugin::DebugToolbar>
+
 =item L<Dancer::Plugin::Email>
 
 =item L<Dancer::Plugin::Facebook>

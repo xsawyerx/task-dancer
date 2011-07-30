@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plugin::DebugToolbar
+
 0.30    30.07.11
         * Adding Dancer::Plugin::NYTProf
         * Adding Dancer::Plugin::Thumbnail

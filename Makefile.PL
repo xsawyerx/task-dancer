@@ -73,6 +73,7 @@ my %features = (
         DataFu          => { name => 'Generate HTML tables/forms'  },
         DBIC            => { name => 'DBIx::Class interface'       },
         DebugDump       => { name => 'dump objects to debug log'   },
+        DebugToolbar    => { name => 'debugging toolbar'           },
         Email           => { name => 'Email::Stuff integration'    },
         Facebook        => { name => 'Plugin linking Dancer with Facebook::Graph' },
         'Fake::Response' => { name => 'Fake request for inremental implementations' },

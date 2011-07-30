@@ -87,6 +87,7 @@ my %features = (
                              min  => '0.03'                        },
         Mongo           => { name => 'MongoDB'                     },
         MPD             => { name => 'Easy connection to MPD'      },
+        NYTProf         => { name => 'Devel::NYTProf profiling'    },
         # ORMesque      => { name => 'Light ORM'                   }, => failing 1.103180
         'Params::Normalization' => { name => 'query param normalization' },
         Progress        => { name => 'display a progress bar during long-running requests' },

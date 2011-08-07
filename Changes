@@ -1,5 +1,6 @@
 Revision history for Task-Dancer
-
+         
+        * Uncommenting Dancer::Plugin::ORMesque
         * Adding Dancer::Plugin::DebugToolbar
 
 0.30    30.07.11

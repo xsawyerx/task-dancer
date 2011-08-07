@@ -188,8 +188,6 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Thumbnail>
 
-=item L<Dancer::Plugin::Validation> (temporarily disabled)
-
 =item L<Dancer::Plugin::ValidationClass>
 
 =item L<Dancer::Plugin::WebSocket>

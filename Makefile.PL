@@ -104,7 +104,6 @@ my %features = (
         SporeDefinitionControl => { name => 'Validite route from a Spore' },
         TimeRequests    => { name => 'Log how long each request took to process' },
         Thumbnail       => { name => 'Easy thumbnail creation'      },
-        # Validation    => { name => 'Oogly Data validation'       }, => not available on CPAN?
         ValidationClass => { name => 'Centralized Input Validation' },
         WebSocket       => { name => 'Easily create WebSocket apps' },
         'XML::RSS'      => { name => 'XML::RSS to parse or create RSS feeds' },

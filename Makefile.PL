@@ -75,6 +75,7 @@ my %features = (
         DebugDump       => { name => 'dump objects to debug log'   },
         DebugToolbar    => { name => 'debugging toolbar'           },
         Email           => { name => 'Email::Stuff integration'    },
+        EscapeHTML      => { name => 'Escape HTML entities to avoid XSS vulnerabilities' },
         Facebook        => { name => 'Plugin linking Dancer with Facebook::Graph' },
         'Fake::Response' => { name => 'Fake request for inremental implementations' },
         Feed            => { name => 'Generate feed rss or atom'   },

@@ -136,6 +136,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Email>
 
+=item l<Dancer::Plugin::EscapeHTML>
+
 =item L<Dancer::Plugin::Facebook>
 
 =item L<Dancer::Plugin::Fake::Response>

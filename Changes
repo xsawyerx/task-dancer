@@ -1,8 +1,10 @@
 Revision history for Task-Dancer
 
-        * Removing deprecated Dancer::Plugin::Validation         
-        * Uncommenting Dancer::Plugin::ORMesque
+0.31    11.08.11 
         * Adding Dancer::Plugin::DebugToolbar
+        * Adding Dancer::Plugin::EscapeHTML
+        * Uncommenting Dancer::Plugin::ORMesque
+        * Removing deprecated Dancer::Plugin::Validation         
 
 0.30    30.07.11
         * Adding Dancer::Plugin::NYTProf

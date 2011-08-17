@@ -136,7 +136,7 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Email>
 
-=item l<Dancer::Plugin::EscapeHTML>
+=item L<Dancer::Plugin::EscapeHTML>
 
 =item L<Dancer::Plugin::Facebook>
 
@@ -198,7 +198,7 @@ if any module temporarily disabled is working again.
 
 =head1 More Plack middlewares
 
-=item L<Dancer::Middleware::Reabase>
+=item L<Dancer::Middleware::Rebase>
 
 =item L<Dancer::Debug>
 

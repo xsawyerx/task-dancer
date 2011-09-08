@@ -83,6 +83,7 @@ my %features = (
         FlashNote       => { name => 'Notification messages'       },
         FormattedOutput => { name => 'Provide output in a variety of formats' },
         FormValidator   => { name => 'Easy input validator'        },
+        LibraryThing    => { name => 'Plugin for LibraryThing APIs' },
         Memcached       => { name => 'Cache response content'      },
         MemcachedFast   => { name => 'Cache things using Cache::Memcached::Fast' },
         MobileDevice    => { name => 'Dancer app mobile-aware',

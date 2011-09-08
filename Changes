@@ -1,5 +1,7 @@
 Revision history for Task-Dancer
 
+        * Adding Dancer::Plugin::LibraryThing
+
 0.31    11.08.11 
         * Adding Dancer::Plugin::DebugToolbar
         * Adding Dancer::Plugin::EscapeHTML

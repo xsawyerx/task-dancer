@@ -152,6 +152,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::FormValidator>
 
+=item L<Dancer::Plugin::LibraryThing>
+
 =item L<Dancer::Plugin::Memcached>
 
 =item L<Dancer::Plugin::MemcachedFast>

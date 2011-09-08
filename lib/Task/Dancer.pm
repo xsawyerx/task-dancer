@@ -34,8 +34,6 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Template::Alloy>
 
-=item L<Dancer::Template::Ctpp2>
-
 =item L<Dancer::Template::HAML>
 
 =item L<Dancer::Template::HtmlTemplate>

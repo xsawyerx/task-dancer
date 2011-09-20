@@ -34,8 +34,10 @@ Plugins
   Dancer::Plugin::Browser
   Dancer::Plugin::Database
   Dancer::Plugin::DBIC
+  Dancer::Plugin::Dispatcher
   Dancer::Plugin::Email
   Dancer::Plugin::Mongo
+  Dancer::Plugin::Mongoose
   Dancer::Plugin::ORMesque
   Dancer::Plugin::Params::Normalization
   Dancer::Plugin::REST

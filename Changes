@@ -1,5 +1,9 @@
 Revision history for Task-Dancer
 
+0.33    09.20.11
+        * Adding Dancer::Plugin::Dispatcher
+        * Adding Dancer::Plugin::Mongoose
+
 0.32    08.09.11
         * Adding Dancer::Plugin::ElasticSearch
         * Adding Dancer::Plugin::DirectoryView

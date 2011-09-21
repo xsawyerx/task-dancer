@@ -77,6 +77,7 @@ my %features = (
         DirectoryView   => { name => 'allow directory browsing'    },
         ElasticSearch   => { name => 'Allow simple use of ElasticSearch' },
         Email           => { name => 'Email::Stuff integration'    },
+        EncodeID        => { name => 'obfuscate IDs in URLs'       },
         EscapeHTML      => { name => 'Escape HTML entities to avoid XSS vulnerabilities' },
         Facebook        => { name => 'Plugin linking Dancer with Facebook::Graph' },
         'Fake::Response' => { name => 'Fake request for inremental implementations' },

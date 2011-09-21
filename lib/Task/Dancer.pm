@@ -138,6 +138,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Email>
 
+=item L<Dancer::Plugin::EncodeID>
+
 =item L<Dancer::Plugin::EscapeHTML>
 
 =item L<Dancer::Plugin::Facebook>

@@ -46,7 +46,7 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Template::MojoTemplate>
 
-=item L<Dancer::Template::Semantic>
+=item L<Dancer::Template::Semantic> (disabled)
 
 =item L<Dancer::Template::TemplateFlute>
 
@@ -92,6 +92,8 @@ if any module temporarily disabled is working again.
 
 =over 4
 
+=item L<Dancer::Session::CHI>
+
 =item L<Dancer::Session::Cookie>
 
 =item L<Dancer::Session::KiokuDB>
@@ -134,6 +136,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::DirectoryView>
 
+=item L<Dancer::Plugin::Dispatcher>
+
 =item L<Dancer::Plugin::ElasticSearch>
 
 =item L<Dancer::Plugin::Email>
@@ -156,6 +160,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::FormValidator>
 
+=item L<Dancer::Plugin::Hosts>
+
 =item L<Dancer::Plugin::LibraryThing>
 
 =item L<Dancer::Plugin::Memcached>
@@ -166,6 +172,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Mongo>
 
+=item L<Dancer::Plugin::Mongoose>
+
 =item L<Dancer::Plugin::MPD>
 
 =item L<Dancer::Plugin::NYTProf>
@@ -173,6 +181,8 @@ if any module temporarily disabled is working again.
 =item L<Dancer::Plugin::ORMesque>
 
 =item L<Dancer::Plugin::Params::Normalization>
+
+=item L<Dancer::Plugin::Passphrase>
 
 =item L<Dancer::Plugin::Progress>
 
@@ -190,13 +200,15 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::SMS>
 
-=item L<Dancer::Plugin::SporeDefinitionControl>
+=item L<Dancer::Plugin::SporeDefinitionControl> (disabled)
 
 =item L<Dancer::Plugin::Stomp>
 
 =item L<Dancer::Plugin::TimeRequest>
 
 =item L<Dancer::Plugin::Thumbnail>
+
+=item L<Dancer::Plugin::ValidateTiny>
 
 =item L<Dancer::Plugin::ValidationClass>
 

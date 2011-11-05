@@ -1,6 +1,6 @@
 package Task::Dancer;
 
-our $VERSION = '0.33';
+our $VERSION = '0.34';
 
 1;
 
@@ -12,7 +12,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.33
+Version 0.34
 
 =head1 DESCRIPTION
 
@@ -92,7 +92,7 @@ if any module temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer::Session::CHI>
+=item L<Dancer::Session::CHI> # disabled
 
 =item L<Dancer::Session::Cookie>
 

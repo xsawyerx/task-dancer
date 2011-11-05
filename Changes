@@ -1,13 +1,13 @@
 Revision history for Task-Dancer
 
-0.34    ...
+0.34    05.11.11
         * Adding Dancer::Plugin::Preprocess::Sass
-        * Adding Dancer::Session::CHI
         * Adding Dancer::Plugin::Hosts
         * Adding Dancer::Plugin::Passphrase
         * Adding Dancer::Plugin::ValidateTiny
         * Disabling Dancer::Plugin::SporeDefinitionControl
         * Disabling Dancer::Template::Semantic
+        * Adding and disabling Dancer::Session::CHI
 
 0.33    21.09.11
         * Adding Dancer::Plugin::Dispatcher

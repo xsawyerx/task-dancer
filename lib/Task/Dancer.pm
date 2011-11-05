@@ -184,6 +184,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Passphrase>
 
+=item L<Dancer::Plugin::Preprocess::Sass>
+
 =item L<Dancer::Plugin::Progress>
 
 =item L<Dancer::Plugin::ProxyPath>

@@ -102,6 +102,7 @@ my %features = (
         ORMesque        => { name => 'Light ORM', min => '1.112180'  },
         Passphrase      => { name => 'Passphrases and Passwords as objects' },
         'Params::Normalization' => { name => 'query param normalization' },
+        'Preprocess::Sass' => { name => 'Generate CSS files from Sass/SCSS files'},
         Progress        => { name => 'display a progress bar during long-running requests' },
         ProxyPath       => { name => 'Provides user-perspective paths' },
         Redis           => { name => 'Redis database connections'  },

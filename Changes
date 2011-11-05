@@ -1,6 +1,7 @@
 Revision history for Task-Dancer
 
 0.34    ...
+        * Adding Dancer::Plugin::Preprocess::Sass
         * Adding Dancer::Session::CHI
         * Adding Dancer::Plugin::Hosts
         * Adding Dancer::Plugin::Passphrase

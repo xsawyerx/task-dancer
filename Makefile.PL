@@ -56,7 +56,8 @@ my %features = (
         MongoDB   => { name => 'MongoDB session backend for Dancer' },
         PSGI      => { name => 'Plack::Middleware::Session'         },
         Storable  => { name => 'Storable file-based'                },
-        # CHI       => { name => 'CHI-based session engine'           },
+        CHI       => { name => 'CHI-based session engine',
+                       min => 0.00100  },
     },
 
     plugin => {

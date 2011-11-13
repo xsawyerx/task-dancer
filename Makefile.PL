@@ -20,7 +20,8 @@ my %features = (
         Mason2          => { name => 'HTML::Mason2',
                              min  => '0.02'                },
         MicroTemplate   => { name => 'Text::MicroTemplate' },
-        MojoTemplate    => { name => 'Mojo::Template wrapper for Dancer'     },
+        MojoTemplate    => { name => 'Mojo::Template wrapper for Dancer',
+                             minperl => '5.010001' },
         # disabled...  # Semantic        => { name => 'Semantic Template wrapper for Dancer'  },
         # as Template::Semantic 0.06 is not passing tests
         TemplateFlute   => { name => 'Template::Flute wrapper for Dancer'    },
@@ -77,7 +78,6 @@ my %features = (
                              name    => 'Generate and verify GD::SecurityImage captchas',
                              default => 0                          },
         Database        => { name => 'Database'                    },
-        DataFu          => { name => 'Generate HTML tables/forms'  },
         DBIC            => { name => 'DBIx::Class interface'       },
         DebugDump       => { name => 'dump objects to debug log'   },
         DebugToolbar    => { name => 'debugging toolbar'           },
@@ -104,8 +104,10 @@ my %features = (
 	Mongoose        => { name => 'MongoDB <-> Moose ORM' 	   },
         MPD             => { name => 'Easy connection to MPD'      },
         Nitesi          => { name => 'Nitesi Shop Machine support' },
-        NYTProf         => { name => 'Devel::NYTProf profiling'    },
-        ORMesque        => { name => 'Light ORM', min => '1.112180'  },
+        NYTProf         => { name => 'Devel::NYTProf profiling',
+                             min => '0.04'                         },
+        ORMesque        => { name => 'Light ORM',
+                             min => '1.112180'                     },
         Passphrase      => { name => 'Passphrases and Passwords as objects' },
         'Params::Normalization' => { name => 'query param normalization' },
         'Preprocess::Sass' => { name => 'Generate CSS files from Sass/SCSS files'},
@@ -154,6 +156,12 @@ foreach my $type ( keys %features ) {
         my $full_namespace = $namespace                               ?
                             "Dancer::${namespace}::${semi_namespace}" :
                             "Dancer::${semi_namespace}";
+
+        if (exists($features{$type}{$semi_namespace}{minperl}) &&
+            $features{$type}{$semi_namespace}{minperl} > $] ) {
+            my $v = $features{$type}{$semi_namespace}{minperl};
+            warn "**[ Skipping $full_namespace (requires Perl $v) ]**\n";
+        }
 
         my ( $name, $default, $min ) =
             @{ $features{$type}{$semi_namespace} }{qw/ name default min /};

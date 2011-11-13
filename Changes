@@ -5,6 +5,15 @@ Revision history for Task-Dancer
         * Adding Dancer::Plugin::Auth::Htpasswd
         * Adding Dancer::Plugin::Nitesi
         * Enabling Dancer::Session::CHI
+        * Removing Dancer::Plugin::DataFu
+
+
+Failing:
+ - Dancer::Plugin::ValidateTiny  (perl version, kalgan)
+ - Dancer::Plugin::Params::Normalization (undef obj call method, dams)
+ - Dancer::Plugin::ValidationClass (alnewkirk)
+ - Dancer::Logger::PSGI (tests, franck)
+ - Dancer::Template::Flute (Template::Flute, racke)
 
 0.34    05.11.11
         * Adding Dancer::Plugin::Preprocess::Sass

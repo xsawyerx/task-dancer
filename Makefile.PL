@@ -57,13 +57,17 @@ my %features = (
         PSGI      => { name => 'Plack::Middleware::Session'         },
         Storable  => { name => 'Storable file-based'                },
         CHI       => { name => 'CHI-based session engine',
-                       min => 0.00100  },
+                       min => 0.001001  },
     },
 
     plugin => {
         namespace    => 'Plugin',
 
         Async           => { name => 'write async request handlers with Twiggy' },
+        'Auth::Basic'   => { name => 'Basic HTTP authentication',
+                             min => 0.011 },
+        'Auth::Htpasswd'=> { name => 'Basic HTTP authentication with htpasswd files',
+                             min => 0.011 },
         'Auth::RBAC'    => { name => 'Authentication, Security and Role-Based Access Control' },
         'Auth::Twitter' => { name => 'Authenticate with Twitter'                },
         Bcrypt          => { name => 'Bcrypt interface for Dancer'              },
@@ -99,6 +103,7 @@ my %features = (
         Mongo           => { name => 'MongoDB'                     },
 	Mongoose        => { name => 'MongoDB <-> Moose ORM' 	   },
         MPD             => { name => 'Easy connection to MPD'      },
+        Nitesi          => { name => 'Nitesi Shop Machine support' },
         NYTProf         => { name => 'Devel::NYTProf profiling'    },
         ORMesque        => { name => 'Light ORM', min => '1.112180'  },
         Passphrase      => { name => 'Passphrases and Passwords as objects' },

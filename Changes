@@ -1,5 +1,11 @@
 Revision history for Task-Dancer
 
+0.35    13.11.11
+        * Adding Dancer::Plugin::Auth::Basic
+        * Adding Dancer::Plugin::Auth::Htpasswd
+        * Adding Dancer::Plugin::Nitesi
+        * Enabling Dancer::Session::CHI
+
 0.34    05.11.11
         * Adding Dancer::Plugin::Preprocess::Sass
         * Adding Dancer::Plugin::Hosts

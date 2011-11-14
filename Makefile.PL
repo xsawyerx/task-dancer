@@ -161,6 +161,7 @@ foreach my $type ( keys %features ) {
             $features{$type}{$semi_namespace}{minperl} > $] ) {
             my $v = $features{$type}{$semi_namespace}{minperl};
             warn "**[ Skipping $full_namespace (requires Perl $v) ]**\n";
+            next;
         }
 
         my ( $name, $default, $min ) =

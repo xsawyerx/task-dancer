@@ -22,8 +22,8 @@ my %features = (
         MicroTemplate   => { name => 'Text::MicroTemplate' },
         MojoTemplate    => { name => 'Mojo::Template wrapper for Dancer',
                              minperl => '5.010001' },
-        # disabled...  # Semantic        => { name => 'Semantic Template wrapper for Dancer'  },
-        # as Template::Semantic 0.06 is not passing tests
+        Semantic        => { name => 'Semantic Template wrapper for Dancer',
+                             min  => '0.08'                },
         TemplateFlute   => { name => 'Template::Flute wrapper for Dancer'    },
         TemplateSandbox => { name => 'Template::Sandbox'                     },
         Xslate          => { name => 'Text::Xslate wrapper for Dancer'       },

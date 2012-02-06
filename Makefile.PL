@@ -15,7 +15,7 @@ my %features = (
 
         Alloy           => { name => 'Alloy'               },
         Tenjin          => { name => 'Tenjin'              },
-        Haml            => { name => 'Text::HAML'          },
+        Haml            => { name => 'Text::Haml'          },
         Mason           => { name => 'HTML::Mason'         },
         Mason2          => { name => 'HTML::Mason2',
                              min  => '0.02'                },

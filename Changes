@@ -1,5 +1,8 @@
 Revision history for Task-Dancer
 
+0.37    23.10.12
+        * No functional changes. Released using Module::Install 1.06.
+
 0.36    06.02.12
         * Fixing Dancer::Plugin::Haml spelling (Brian Hann - c0bra).
 

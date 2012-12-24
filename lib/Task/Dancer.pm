@@ -1,6 +1,7 @@
 package Task::Dancer;
-
-our $VERSION = '0.37';
+use strict;
+use warnings;
+our $VERSION = '0.38';
 
 1;
 
@@ -12,7 +13,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.35
+Version 0.38
 
 =head1 DESCRIPTION
 

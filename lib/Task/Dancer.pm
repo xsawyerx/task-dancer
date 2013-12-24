@@ -119,7 +119,7 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Auth::Htpasswd>
 
-=item L<Dancer::Plugin::Auth::RBAC>
+=item L<Dancer::Plugin::Auth::Extensible>
 
 =item L<Dancer::Plugin::Auth::Twitter>
 

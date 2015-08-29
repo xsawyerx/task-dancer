@@ -1,5 +1,23 @@
 Revision history for Task-Dancer
 
+0.39    29-08-2015
+        * Removal:        (thanks to Yanick)
+          -  Dancer::Plugin::ElasticSearch not installing
+             (underlying ElasticSearch module changed name)
+          -  Dancer::Plugin::Dispatcher (not existing anymore)
+          -  Dancer::Plugin::Mongoose (not existing anymore)
+          -  Dancer::Template::Semantic (Template::Semantic not installing)
+          -  Dancer::Plugin::ORMesque (not existing anymore)
+          -  Dancer::Logger::LogHandler (building fails)
+          -  Dancer::Plugin::Facebook (building fails)
+          -  Dancer::Plugin::MPD (DB_File install fails)
+          -  Dancer::Plugin::WebSocket (install of AnyMQ fails)
+          -  Dancer::Plugin::Fake::Response (building fail)
+          -  Dancer::Plugin::ValidationClass (does not exist anymore)
+        * Adding Dancer::Plugin::Auth::Tiny
+        * Adding Dancer::Plugin::Auth::Extensible and removing
+          the now deprecated Dancer::Plugin::Auth::RBAC
+
 0.38    24.12.12
         * No functional changes.
 

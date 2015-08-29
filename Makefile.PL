@@ -67,6 +67,7 @@ my %features = (
         'Auth::Htpasswd'=> { name => 'Basic HTTP authentication with htpasswd files',
                              min => 0.011 },
         'Auth::Extensible'    => { name => 'Extensible authentication framework' },
+        'Auth::Tiny'    => { name => 'Require logged-in user for specified routes' },
         'Auth::Twitter' => { name => 'Authenticate with Twitter'                },
         Bcrypt          => { name => 'Bcrypt interface for Dancer'              },
         Browser         => { name => 'Browser detection'                        },

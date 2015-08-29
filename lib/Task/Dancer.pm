@@ -1,7 +1,7 @@
 package Task::Dancer;
 use strict;
 use warnings;
-our $VERSION = '0.38';
+our $VERSION = '0.39';
 
 1;
 
@@ -13,7 +13,7 @@ Task::Dancer - Dancer in a box
 
 =head1 VERSION
 
-Version 0.38
+Version 0.39
 
 =head1 DESCRIPTION
 
@@ -47,8 +47,6 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Template::MojoTemplate>
 
-=item L<Dancer::Template::Semantic> (disabled)
-
 =item L<Dancer::Template::TemplateFlute>
 
 =item L<Dancer::Template::TemplateSandbox>
@@ -70,8 +68,6 @@ if any module temporarily disabled is working again.
 =item L<Dancer::Logger::ConsoleSpinner>
 
 =item L<Dancer::Logger::Log4perl>
-
-=item L<Dancer::Logger::LogHandler>
 
 =item L<Dancer::Logger::Pipe>
 
@@ -141,19 +137,11 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::DirectoryView>
 
-=item L<Dancer::Plugin::Dispatcher>
-
-=item L<Dancer::Plugin::ElasticSearch>
-
 =item L<Dancer::Plugin::Email>
 
 =item L<Dancer::Plugin::EncodeID>
 
 =item L<Dancer::Plugin::EscapeHTML>
-
-=item L<Dancer::Plugin::Facebook>
-
-=item L<Dancer::Plugin::Fake::Response>
 
 =item L<Dancer::Plugin::Feed>
 
@@ -177,15 +165,9 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Mongo>
 
-=item L<Dancer::Plugin::Mongoose>
-
-=item L<Dancer::Plugin::MPD>
-
 =item L<Dancer::Plugin::Nitesi>
 
 =item L<Dancer::Plugin::NYTProf>
-
-=item L<Dancer::Plugin::ORMesque>
 
 =item L<Dancer::Plugin::Params::Normalization>
 
@@ -218,10 +200,6 @@ if any module temporarily disabled is working again.
 =item L<Dancer::Plugin::Thumbnail>
 
 =item L<Dancer::Plugin::ValidateTiny>
-
-=item L<Dancer::Plugin::ValidationClass>
-
-=item L<Dancer::Plugin::WebSocket>
 
 =item L<Dancer::Plugin::XML::RSS>
 

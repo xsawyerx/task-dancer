@@ -117,6 +117,8 @@ if any module temporarily disabled is working again.
 
 =item L<Dancer::Plugin::Auth::Extensible>
 
+=item L<Dancer::Plugin::Auth::Tiny>
+
 =item L<Dancer::Plugin::Auth::Twitter>
 
 =item L<Dancer::Plugin::Bcrypt>
